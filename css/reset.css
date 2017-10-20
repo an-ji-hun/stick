@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,code,form,fieldset,legend,textarea,blockquote,table,th,td,input,select,textarea,button{margin:0;padding:0}
+html,body                      {font-size:14px;font-family:'NanumGothic', 'dotum', 'Arial', 'sans-serif'}
+body, input, select, textarea  {color:#444;font-weight:normal}
+img, input, fieldset           {border:0}
+img, input, select,textarea    {vertical-align:top}
+ul, ol, li, dl, dt, dd         {list-style:none;margin:0;padding:0}
+h1, h2, h3, h4, h5, th         {margin:0;font-weight:normal}
+address, caption, cite, code,
+dfn, em, i, var                {font-style:normal;font-weight:normal}
+a                              {color:#888;text-decoration:none;/*text-overflow:ellipsis;-o-text-overflow:ellipsis*/}
+a:link,
+a:hover,
+a:active,
+a:visited                      {text-decoration:none;color:inherit;}
+label			               {cursor:pointer;}
+sup,sub                        {line-height:1;}
+table                          {width:100%;border-collapse:collapse;border-spacing:0}
+caption,legend                 {position:absolute;left:0;top:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden;visibility:hidden;}/* hidden */
+
+/* form  *********************************************** */
+input,select {vertical-align:top; outline:none;}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="number"] {height:20px;line-height:20px;padding:4px;margin:0;border:1px solid #cccccc;vertical-align:middle;}
+textarea,
+select {-webkit-appearance:none}
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"] {-webkit-appearance:none;-webkit-border-radius:0;overflow:visible;margin:0;padding:0;border:0 none;background:0 none;cursor:pointer}
+input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}/* 기본 스타일 제어 */
+input[type=file],
+input[type=image],
+input[type=reset],
+input[type=button],
+input[type=submit] {cursor:pointer;}
+textarea                             {overflow:auto;}
+input::-webkit-input-placeholder     {color:#999}
+input:-moz-placeholder               {color:#999}
+textarea::-webkit-input-placeholder  {color:#999}
+textarea:-moz-placeholder            {color:#999}
+input[type=number]::-webkit-outer-spin-button{margin:0}
+input[type="checkbox"],input[type="radio"]{margin:0;padding:0;-webkit-appearance:none }
+button[disabled],
+html input[disabled]                  {cursor:default;}
+/* HTML5 reset */
+body{-webkit-text-size-adjust:none;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,audio,object,video{display:block}
+address,caption,cite,code,dfn,em,i,var{font-style:normal;font-weight:normal}
+iframe, embed, object, video {max-width:100%;}
+blockquote, q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+
+/* box-sizing */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+ outline: none;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clear */
+.clearfix:before,
+.clearfix:after,{
+  display: table;
+  content: " ";
+}
+.clearfix:after{
+  clear: both;
+}
+

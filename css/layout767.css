@@ -1,0 +1,112 @@
+@media (max-width: 767px) {
+	/* header */
+	#container {
+		position:inherit;
+		margin:0 0 0 0;
+		border:none;
+		padding-top:50px;
+	}
+	#side_menu {
+		display:none;
+		position:relative;
+		z-index:30;
+		width:100%;
+	}  
+	.utill{width:220px;}
+	.utill .site_search {
+	    padding: 0 8px;
+	}
+	.nav_toggle{
+	   	display:block;
+	    position: relative;
+	    float: right;
+	    padding: 10px 8px;
+	    margin-top: 6px;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+	    background:#444
+	}
+	.nav_toggle .icon_bar {
+	    display: block;
+	    width: 22px;
+	    height: 2px;
+	    border-radius: 1px;
+	    background: #fff;
+	}
+	.nav_toggle .icon_bar+.icon_bar {
+    	margin-top: 4px;
+	}
+	/* nav toggle - hambermenu */
+	.nav_toggle > .icon_bar {
+		  -webkit-transition: all 0.3s ease-in-out;
+		  -moz-transition: all 0.3s ease-in-out;
+		  -ms-transition: all 0.3s ease-in-out;
+		  -o-transition: all 0.3s ease-in-out;
+		  transition: all 0.3s ease-in-out;
+		   -webkit-transform:rotate(0deg);
+		   -moz-transform:rotate(0deg);
+		   -ms-transform:rotate(0deg);
+		   -o-transform:rotate(0deg);
+		  transform:rotate(0deg)
+	}
+	.icon-on .icon_bar:nth-child(3){opacity:0;}
+	.icon-on .icon_bar:nth-child(2){
+		-webkit-transform: translateY(6px) rotate(45deg);
+		-moz-transform: translateY(6px) rotate(45deg);
+		-ms-transform: translateY(6px) rotate(45deg);
+		-o-transform: translateY(6px) rotate(45deg);
+		transform: translateY(6px) rotate(45deg);
+	}
+	.icon-on .icon_bar:nth-child(4){
+		 -webkit-transform: translateY(-6px) rotate(-45deg);
+		  -moz-transform: translateY(-6px) rotate(-45deg);
+		  -ms-transform: translateY(-6px) rotate(-45deg);
+		  -o-transform: translateY(-6px) rotate(-45deg);
+		  transform: translateY(-6px) rotate(-45deg);
+	}
+	/* footer */
+	#footer {padding-left:0; background:#ddd;}
+		
+	/* grid sys */
+	.grid1_m, .grid2_m, .grid3_m, .grid4_m, .grid5_m, .grid6_m, .grid7_m, .grid8_m, .grid9_m, .grid10_m, .grid11_m, .grid12_m  {
+	  float: left;    
+	  padding-right:12px;
+	  padding-left:12px;
+	}
+	.grid12_m{
+	  width: 100%;
+	}
+	.grid11_m {
+	  width: 91.66666667%;
+	}
+	.grid10_m {
+	  width: 83.33333333%;
+	}
+	.grid9_m {
+	  width: 75%;
+	}
+	.grid8_m {
+	  width: 66.66666667%;
+	}
+	.grid7_m {
+	  width: 58.33333333%;
+	}
+	.grid6_m {
+	  width: 50%;
+	}
+	.grid5_m {
+	  width: 41.66666667%;
+	}
+	.grid4_m {
+	  width: 33.33333333%;
+	}
+	.grid3_m {
+	  width: 25%;
+	}
+	.grid2_m {
+	  width: 16.66666667%;
+	}
+	.grid1_m {
+	  width: 8.33333333%;
+	}	
+}
